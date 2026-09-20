@@ -2,7 +2,7 @@
 
 ## Status
 
-**DOCUMENTING**
+**CLOSED**
 
 **Technical Validation:** PASS
 
@@ -12,16 +12,16 @@ Build and validate the virtualization foundation required by Active Directory La
 
 ## Sections
 
-| ID   | Section                                                    | Status      | Validation  |
-| ---- | ---------------------------------------------------------- | ----------- | ----------- |
-| B1.1 | VirtualBox Installation & Version Baseline                 | COMPLETED   | PASS        |
-| B1.2 | Hardware Virtualization & Hypervisor Compatibility         | COMPLETED   | PASS        |
-| B1.3 | AD-Lab Host Storage Preparation                            | COMPLETED   | PASS        |
-| B1.4 | VirtualBox Global Configuration                            | COMPLETED   | PASS        |
-| B1.5 | Virtual Network Preparation                                | COMPLETED   | PASS        |
-| B1.6 | VM Resource Templates & Creation Plan                      | COMPLETED   | PASS        |
-| B1.7 | Virtualization Validation                                  | COMPLETED   | PASS        |
-| B1.8 | Repository Bootstrap, Evidence, Documentation & B1 Closure | IN PROGRESS | PASS so far |
+| ID   | Section                                                    | Status    | Validation |
+| ---- | ---------------------------------------------------------- | --------- | ---------- |
+| B1.1 | VirtualBox Installation & Version Baseline                 | COMPLETED | PASS       |
+| B1.2 | Hardware Virtualization & Hypervisor Compatibility         | COMPLETED | PASS       |
+| B1.3 | AD-Lab Host Storage Preparation                            | COMPLETED | PASS       |
+| B1.4 | VirtualBox Global Configuration                            | COMPLETED | PASS       |
+| B1.5 | Virtual Network Preparation                                | COMPLETED | PASS       |
+| B1.6 | VM Resource Templates & Creation Plan                      | COMPLETED | PASS       |
+| B1.7 | Virtualization Validation                                  | COMPLETED | PASS       |
+| B1.8 | Repository Bootstrap, Evidence, Documentation & B1 Closure | COMPLETED | PASS       |
 
 ## B1.1 — VirtualBox Baseline
 
@@ -168,6 +168,12 @@ Branch:
 main
 ```
 
+Remote repository:
+
+```
+https://github.com/fabrint96-ship-it/AD-Lab.git
+```
+
 B1 evidence:
 
 ```
@@ -222,19 +228,33 @@ Validated state:
 * Virtual disks validated.
 * Network attachment validated.
 
-## Remaining Closure Actions
+## Final Closure
 
-Before changing this block to `CLOSED`:
+Implementation: PASS  
+Validation: PASS  
+Evidence: PASS  
+Documentation: PASS  
+Git record: PASS  
+GitHub publication: PASS
 
-* Complete repository review.
-* Create initial Git record.
-* Create/connect GitHub repository.
-* Verify remote repository state.
-* Update project tracking.
-* Record final B1 checkpoint.
+Validated baseline before closure documentation:
+
+```
+eff95cdf16eada778ed91606abf3a7d9b9496608
+```
+
+At that checkpoint, local `HEAD`, local `main` and `origin/main` were verified to reference the same commit.
+
+**B1 — Virtualization Foundation is formally CLOSED.**
+
+Next block:
+
+```
+B2 — Network Foundation
+```
 
 ## Result
 
-**PASS — awaiting formal closure**
+**PASS — CLOSED**
 
-B2 must not begin until these remaining B1 closure actions are complete.
+B1 has completed implementation, verification, evidence capture, documentation, review, recording and formal closure.
