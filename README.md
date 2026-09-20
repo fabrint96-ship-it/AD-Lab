@@ -4,10 +4,11 @@ Professional Microsoft Active Directory and Windows Server laboratory designed a
 
 ## Project Status
 
-**Current phase:** Implementation
-**Current block:** B1 — Virtualization Foundation
-**B0 — Planning & Design:** Completed
-**B1 — Virtualization Foundation:** Documentation and closure in progress
+**Current phase:** Implementation  
+**Current block:** B2 — Network Foundation  
+**B0 — Planning & Design:** CLOSED  
+**B1 — Virtualization Foundation:** CLOSED  
+**B2 — Network Foundation:** NOT STARTED
 
 ## Objective
 
@@ -292,15 +293,15 @@ This repository must never contain:
 
 ### B0 — Planning & Design
 
-**Status:** COMPLETED
+**Status:** CLOSED
 
-The initial architecture, naming conventions, addressing plan, Active Directory logical design, repository design and implementation roadmap have been defined.
+The initial architecture, naming conventions, addressing plan, Active Directory logical design, repository design and implementation roadmap have been defined and formally closed.
 
 ### B1 — Virtualization Foundation
 
-**Status:** DOCUMENTING
+**Status:** CLOSED
 
-Completed technical work includes:
+Completed and validated work includes:
 
 * VirtualBox baseline validation.
 * Upgrade to VirtualBox 7.2.18.
@@ -315,5 +316,18 @@ Completed technical work includes:
 * Creation of PC01.
 * Creation of PC02.
 * CPU, RAM, network and VDI validation.
+* Evidence registration.
+* Repository review and initial Git record.
+* GitHub repository publication and remote validation.
 
-Formal evidence and repository documentation are being completed before B1 closure.
+B1 validated baseline before closure documentation:
+
+```
+eff95cdf16eada778ed91606abf3a7d9b9496608
+```
+
+### B2 — Network Foundation
+
+**Status:** NOT STARTED
+
+B2 is the next implementation block.
